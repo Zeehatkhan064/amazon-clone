@@ -1,0 +1,8 @@
+.product-list-container {
+  display: flex;
+}
+
+.Product-container {
+  margin-top: 50px;
+  padding-left: 30px;
+}

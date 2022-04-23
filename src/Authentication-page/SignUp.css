@@ -1,0 +1,20 @@
+.password-text {
+  padding-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.form {
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.b-account {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
