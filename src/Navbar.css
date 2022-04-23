@@ -1,0 +1,76 @@
+img {
+  width: 100%;
+}
+
+.navbar-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+.logo {
+  width: 100px;
+  padding-top: 12px;
+  padding-left: 13px;
+}
+
+.hello {
+  margin-left: 20px;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.address {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.forms {
+  margin-top: 8px;
+}
+.form-control {
+  width: 800px;
+  padding: 8px;
+  margin-left: 20px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.h-sign {
+  font-size: 12px;
+  padding: 10px;
+  margin-left: 33px;
+  font-weight: 500;
+}
+
+.return {
+  font-size: 12px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.order {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.account {
+  font-size: 14px;
+  font-weight: bold;
+}
+.icon {
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.c-icon {
+  width: 60px;
+}
+
+.cart {
+  padding-top: 12px;
+  font-weight: bold;
+  font-size: 20px;
+}

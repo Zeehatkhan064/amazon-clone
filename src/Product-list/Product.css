@@ -1,0 +1,38 @@
+.p-container {
+  width: 100%;
+}
+
+.product-container {
+  color: black;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 250px;
+  object-fit: contain;
+}
+
+.product-name {
+  font-weight: bold;
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.products {
+  margin-top: 50px;
+}
+
+.product-image {
+  width: 80%;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 10px;
+}
+.product-text {
+  text-align: center;
+  font-weight: 600;
+}
+
+.p-color {
+  text-align: center;
+}

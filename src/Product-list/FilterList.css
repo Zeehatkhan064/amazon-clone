@@ -1,0 +1,55 @@
+.filter-container {
+  margin-top: 70px;
+  padding: 20px;
+  border-right: 1px solid rgb(119, 117, 117);
+  width: 200px;
+  position: fixed;
+}
+
+.filter-list {
+}
+
+.header {
+  font-weight: bold;
+}
+.h-text {
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.delivery {
+  font-weight: bold;
+}
+
+.d-text {
+  font-weight: 450;
+  margin-bottom: 20px;
+}
+.brands {
+  font-weight: bold;
+}
+
+.brand-list {
+  font-weight: 450;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.price-list {
+  list-style: none;
+  font-weight: 450;
+  margin-bottom: 20px;
+}
+
+.discount {
+  font-weight: bold;
+}
+
+.disc-list {
+  list-style: none;
+  font-weight: 450;
+}
