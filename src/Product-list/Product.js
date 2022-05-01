@@ -1,8 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./Product.css";
 import axios from "../axios";
+import { useNavigate } from "react-router-dom";
 
 function Product({ fetchUrl }) {
+  let navigate = useNavigate();
+  function handleOnClick(id) {
+    navigate(`/product-details/${id}`);
+  }
+
   const [list, setList] = useState([]);
   const [loader, setLoader] = useState(false);
 
@@ -45,6 +51,7 @@ function Product({ fetchUrl }) {
               <div className="products">
                 <img
                   className="product-image"
+                  onClick={() => handleOnClick(elem?.id)}
                   src={`http://${elem?.imageUrl}`}
                 />
                 <div className="product-text">{elem.brandName}</div>

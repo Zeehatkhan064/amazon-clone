@@ -1,8 +1,10 @@
 import "./App.css";
 import Home from "./Home-page/Home";
 import ProductList from "./Product-list/ProductList";
+import ProductDetails from "./Product-details/ProductDetails";
 import SignIn from "./Authentication-page/SignIn";
 import SignUp from "./Authentication-page/SignUp";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
           <Route path="/product-list" element={<ProductList />} />
           <Route path="/authentication-page" element={<SignIn />} />
           <Route path="/sign-up" element={<SignUp />} />
+          <Route path="/product-details/:id" element={<ProductDetails />} />
         </Routes>
       </BrowserRouter>
     </div>

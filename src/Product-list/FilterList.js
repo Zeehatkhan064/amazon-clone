@@ -6,7 +6,7 @@ function FilterList() {
     <div className="filter-container">
       <div className="filter-list">
         <div className="header">
-          Amazon Prime
+          Amazon Prime Test
           <div className="h-text">Prime</div>
         </div>
 

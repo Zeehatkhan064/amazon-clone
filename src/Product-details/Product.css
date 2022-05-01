@@ -1,0 +1,164 @@
+.product-detail-container {
+  margin-top: 80px;
+}
+
+.detail {
+  display: flex;
+}
+.product-detail {
+  width: 10%;
+  padding-top: 20px;
+}
+.product-details {
+}
+
+.product-details .image-list {
+  width: 70px;
+  list-style: none;
+}
+
+.product-details .image-list li {
+  cursor: pointer;
+  list-style-image: url("https://rukminim1.flixcart.com/www/18/18/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=30");
+}
+
+.product-details .image-list li img {
+  border-radius: 8px;
+  border: 2px solid #fff;
+}
+
+.product-details .image-list li img:hover {
+  border: 2px solid #000;
+}
+
+img {
+  width: 100%;
+}
+
+.show-img {
+  margin-top: 50px;
+  width: 400px;
+  border: 2px solid #fff;
+}
+
+.show-img:hover {
+  cursor: pointer;
+}
+
+.img-details {
+  display: flex;
+}
+
+.detail-container {
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 20px;
+  width: 50%;
+  margin-right: 20px;
+}
+.name {
+  font-weight: 500;
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+.tag {
+  color: rgb(3, 199, 3);
+  margin-left: 30px;
+}
+
+.p-tag {
+  font-weight: 550;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.p-text {
+  color: rgb(156, 9, 9);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.type {
+  padding-left: 30px;
+  font-weight: 540;
+  color: rgb(98, 96, 96);
+  border-top: 1px solid rgb(131, 199, 131);
+  padding-top: 50px;
+}
+
+.type-text {
+  color: black;
+  border-bottom: 1px solid rgb(131, 199, 131);
+}
+
+.gender {
+  font-weight: 540;
+  margin-left: 30px;
+  color: rgb(98, 96, 96);
+}
+
+.gender-text {
+  color: black;
+  border-bottom: 1px solid rgb(131, 199, 131);
+}
+
+.offer {
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+  line-height: 0.1;
+}
+.offers li {
+  list-style-image: url("https://rukminim1.flixcart.com/www/18/18/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=30");
+  font-weight: 400;
+}
+
+.cart-container {
+  width: 20%;
+  border: 2px solid rgb(183, 174, 174);
+  margin-top: 40px;
+  border-radius: 10px;
+  margin-right: 30px;
+  font-weight: 400;
+}
+
+.cart-text {
+  font-weight: 550;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cart-btn {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+  background-color: rgb(239, 239, 24);
+  border: 1px solid rgb(239, 239, 24);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.buy-btn {
+  padding-left: 32%;
+  padding-right: 32%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+  background-color: rgb(247, 181, 58);
+  border: 1px solid rgb(225, 149, 7);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.Add-btn {
+  padding-right: 43%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  margin-left: 25px;
+  margin-top: 20px;
+}

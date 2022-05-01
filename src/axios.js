@@ -4,7 +4,7 @@ const instance = axios.create({
   baseURL: "https://asos2.p.rapidapi.com/",
   headers: {
     "X-RapidAPI-Host": "asos2.p.rapidapi.com",
-    "X-RapidAPI-Key": "098528a8f2msh4c7a737b90830d5p154e8bjsn44808f4120ec",
+    "X-RapidAPI-Key": "63c0f1bb91msh5535e20528936f0p157a43jsn6cff2da7674c",
   },
 });
 
