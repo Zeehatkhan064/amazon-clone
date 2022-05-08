@@ -15,7 +15,7 @@ function SignUp() {
         <div className="SignIn">
           <div className="sign">Create account</div>
 
-          <div className="email-text">your name </div>
+          <div className="email-text">Enter your name </div>
           <input className="form"></input>
 
           <div className="email-text">Mobile number or email </div>

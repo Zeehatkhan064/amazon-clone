@@ -3,8 +3,18 @@ import "./Product.css";
 import axios from "../axios";
 import request from "../request";
 import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-function Product({ id }) {
+function Product() {
+  let navigate = useNavigate();
+  function AddToCLick() {
+    navigate("/cart");
+  }
+
+  function ClickToBuy() {
+    navigate("/Buy");
+  }
+
   const [item, setItem] = useState({});
   const [showImg, setShowImg] = useState(0);
   const paramsData = new useParams();
@@ -48,7 +58,7 @@ function Product({ id }) {
               <>
                 <div className="product-details">
                   <ul className="image-list">
-                    <li key="'image' + i">
+                    <li key={item}>
                       <img
                         src={`https://${img.url}`}
                         onClick={() => showProductMainImage(img.url)}
@@ -104,7 +114,7 @@ function Product({ id }) {
           </div>
 
           <div className="cart-container">
-            <div className="cart-text">{item?.price?.current?.text}</div>
+            <div className="c-text">{item?.price?.current?.text}</div>
             <div className="cart-text">
               FREE delivery: Saturday, April 30 Details
             </div>
@@ -117,10 +127,10 @@ function Product({ id }) {
               hidden. If this is a gift, consider shipping to a different
               address.
             </div>
-            <button className="cart-btn" type="button">
+            <button className="cart-btn" type="button" onClick={AddToCLick}>
               Add to Cart
             </button>
-            <button className="buy-btn" type="button">
+            <button className="buy-btn" type="button" onClick={ClickToBuy}>
               Buy Now
             </button>
             <button className="Add-btn" type="button">

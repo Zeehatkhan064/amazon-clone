@@ -47,6 +47,7 @@ img {
 
 .img-details {
   display: flex;
+  width: 10%;
 }
 
 .detail-container {
@@ -122,6 +123,14 @@ img {
   border-radius: 10px;
   margin-right: 30px;
   font-weight: 400;
+}
+
+.c-text {
+  color: rgb(182, 6, 6);
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 20px;
 }
 
 .cart-text {

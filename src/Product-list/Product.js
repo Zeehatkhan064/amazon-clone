@@ -32,7 +32,7 @@ function Product({ fetchUrl }) {
       const request = await axios.get(fetchUrl, { params: params });
       setLoader(false);
       setList(request.data);
-      console.log(list);
+      // console.log(list);
       return request;
     }
 
@@ -50,7 +50,7 @@ function Product({ fetchUrl }) {
             {list?.products?.map((elem) => (
               <div className="products">
                 <img
-                  className="product-image"
+                  className="product-img"
                   onClick={() => handleOnClick(elem?.id)}
                   src={`http://${elem?.imageUrl}`}
                 />

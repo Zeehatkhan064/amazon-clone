@@ -1,0 +1,38 @@
+img {
+  width: 100%;
+}
+.row-container {
+  width: 50%;
+  display: flex;
+  margin-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.row-items {
+  margin-left: 20px;
+}
+
+.raw {
+  padding-left: 50px;
+}
+
+.row-item {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.img-text {
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: 500;
+}
+
+.color {
+  color: red;
+}
+
+.pri-text {
+  color: rgb(182, 6, 6);
+  font-weight: bold;
+}
